@@ -7,11 +7,11 @@ public class FatJarEg {
     public static void main(String args[]){
 
         /* PID OF THIS PROGRAM */
-        RuntimeMXBean runtimeBean = ManagementFactory.getRuntimeMXBean();
-        String jvmName = runtimeBean.getName();
-        System.out.println("JVM Name = " + jvmName);
-        long pid = Long.valueOf(jvmName.split("@")[0]);
-        System.out.println("JVM PID  = " + pid);
+        //RuntimeMXBean runtimeBean = ManagementFactory.getRuntimeMXBean();
+        //String jvmName = runtimeBean.getName();
+        //System.out.println("JVM Name = " + jvmName);
+        //long pid = Long.valueOf(jvmName.split("@")[0]);
+        //System.out.println("JVM PID  = " + pid);
         /* PID OF THIS PROGRAM */
 
         System.out.println("Enter 2 nos");
